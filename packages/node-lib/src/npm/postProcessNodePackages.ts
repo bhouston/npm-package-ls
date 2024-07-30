@@ -1,29 +1,36 @@
 import type { NodePackage } from './NodePackage.js';
 
-const recursionGuard = new Set<string>();
-
-export const postProcessNodePackage = (rootPackage: NodePackage): number => {
+export const postProcessNodePackage = (
+  rootPackage: NodePackage,
+  uniquePackages: Set<string> = new Set()
+): number => {
   if (rootPackage.totalSize !== undefined) return rootPackage.totalSize;
 
   const key = `${rootPackage.name}@${rootPackage.version}`;
 
-  if (recursionGuard.has(key)) {
-    return rootPackage.size || 0;
+  const localUniquePackages = new Set(uniquePackages);
+
+  if (localUniquePackages.has(key)) {
+    return 0;
   }
-  recursionGuard.add(key);
+  localUniquePackages.add(key);
 
   let totalSize = rootPackage.size || 0;
   rootPackage.dependencies?.forEach((nodePackage) => {
-    const packageSize = postProcessNodePackage(nodePackage);
+    const packageSize = postProcessNodePackage(
+      nodePackage,
+      localUniquePackages
+    );
     totalSize += packageSize;
   });
   rootPackage.devDependencies?.forEach((nodePackage) => {
-    const packageSize = postProcessNodePackage(nodePackage);
+    const packageSize = postProcessNodePackage(
+      nodePackage,
+      localUniquePackages
+    );
     totalSize += packageSize;
   });
   rootPackage.totalSize = totalSize;
-
-  recursionGuard.delete(key);
 
   return rootPackage.totalSize;
 };
