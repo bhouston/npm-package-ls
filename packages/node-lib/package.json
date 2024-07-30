@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "source": "src/index.ts",
   "devDependencies": {
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "@bhouston/common-lib": "*"
   }
 }

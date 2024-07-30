@@ -1,0 +1,505 @@
+
+> npm-package-ls@0.0.1 cli
+> npm run build && cli --path ../../Work/composable-sdk/
+
+
+> npm-package-ls@0.0.1 build
+> nx run-many -t build --all
+
+
+ >  NX   Running target build for 3 projects:
+
+    - @bhouston/common-lib
+    - @bhouston/node-lib
+    - cli
+
+ 
+
+> nx run @bhouston/common-lib:build  [existing outputs match the cache, left as is]
+
+
+> nx run @bhouston/node-lib:build
+
+
+> nx run cli:build
+
+
+ 
+
+ >  NX   Successfully ran target build for 3 projects
+
+   Nx read the output from the cache instead of running the command for 1 out of 3 tasks.
+
+Analyzing ../../Work/composable-sdk/
+requesting @testing-library/jest-dom@^6.4.6
+requesting tsx@^4.10.3
+resolving tsx to ../../Work/composable-sdk/node_modules/tsx
+../../Work/composable-sdk/node_modules/tsx: 4141
+size of tsx is 4141
+requesting esbuild@~0.20.2
+requesting get-tsconfig@^4.7.5
+resolving get-tsconfig to ../../Work/composable-sdk/node_modules/get-tsconfig
+../../Work/composable-sdk/node_modules/get-tsconfig: 8538
+size of get-tsconfig is 8538
+requesting resolve-pkg-maps@^1.0.0
+resolving resolve-pkg-maps to ../../Work/composable-sdk/node_modules/resolve-pkg-maps
+../../Work/composable-sdk/node_modules/resolve-pkg-maps: 9813
+size of resolve-pkg-maps is 9813
+resolving esbuild to ../../Work/composable-sdk/node_modules/tsx/node_modules/esbuild
+../../Work/composable-sdk/node_modules/tsx/node_modules/esbuild: 13547
+size of esbuild is 13547
+resolving @testing-library/jest-dom to ../../Work/composable-sdk/node_modules/@testing-library/jest-dom
+../../Work/composable-sdk/node_modules/@testing-library/jest-dom: 89296
+size of @testing-library/jest-dom is 89296
+requesting @adobe/css-tools@^4.4.0
+requesting @babel/runtime@^7.9.2
+requesting aria-query@^5.0.0
+requesting chalk@^3.0.0
+requesting css.escape@^1.5.1
+requesting dom-accessibility-api@^0.6.3
+requesting lodash@^4.17.21
+requesting redent@^3.0.0
+resolving redent to ../../Work/composable-sdk/node_modules/redent
+../../Work/composable-sdk/node_modules/redent: 3599
+size of redent is 3599
+requesting indent-string@^4.0.0
+requesting strip-indent@^3.0.0
+resolving strip-indent to ../../Work/composable-sdk/node_modules/strip-indent
+../../Work/composable-sdk/node_modules/strip-indent: 3312
+size of strip-indent is 3312
+requesting min-indent@^1.0.0
+resolving min-indent to ../../Work/composable-sdk/node_modules/min-indent
+../../Work/composable-sdk/node_modules/min-indent: 2969
+size of min-indent is 2969
+resolving indent-string to ../../Work/composable-sdk/node_modules/indent-string
+../../Work/composable-sdk/node_modules/indent-string: 4398
+size of indent-string is 4398
+resolving lodash to ../../Work/composable-sdk/node_modules/lodash
+../../Work/composable-sdk/node_modules/lodash: 1323548
+size of lodash is 1323548
+resolving dom-accessibility-api to ../../Work/composable-sdk/node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api
+../../Work/composable-sdk/node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api: 13851
+size of dom-accessibility-api is 13851
+resolving css.escape to ../../Work/composable-sdk/node_modules/css.escape
+../../Work/composable-sdk/node_modules/css.escape: 6486
+size of css.escape is 6486
+resolving chalk to ../../Work/composable-sdk/node_modules/@testing-library/jest-dom/node_modules/chalk
+../../Work/composable-sdk/node_modules/@testing-library/jest-dom/node_modules/chalk: 22470
+size of chalk is 22470
+requesting ansi-styles@^4.1.0
+requesting supports-color@^7.1.0
+resolving supports-color to ../../Work/composable-sdk/node_modules/supports-color
+../../Work/composable-sdk/node_modules/supports-color: 7035
+size of supports-color is 7035
+requesting has-flag@^4.0.0
+resolving has-flag to ../../Work/composable-sdk/node_modules/has-flag
+../../Work/composable-sdk/node_modules/has-flag: 4419
+size of has-flag is 4419
+resolving ansi-styles to ../../Work/composable-sdk/node_modules/ansi-styles
+../../Work/composable-sdk/node_modules/ansi-styles: 16978
+size of ansi-styles is 16978
+requesting color-convert@^2.0.1
+resolving color-convert to ../../Work/composable-sdk/node_modules/color-convert
+../../Work/composable-sdk/node_modules/color-convert: 27189
+size of color-convert is 27189
+requesting color-name@~1.1.4
+resolving color-name to ../../Work/composable-sdk/node_modules/color-name
+../../Work/composable-sdk/node_modules/color-name: 6693
+size of color-name is 6693
+resolving aria-query to ../../Work/composable-sdk/node_modules/aria-query
+../../Work/composable-sdk/node_modules/aria-query: 19215
+size of aria-query is 19215
+requesting deep-equal@^2.0.5
+resolving deep-equal to ../../Work/composable-sdk/node_modules/deep-equal
+../../Work/composable-sdk/node_modules/deep-equal: 59101
+size of deep-equal is 59101
+requesting array-buffer-byte-length@^1.0.0
+requesting call-bind@^1.0.5
+requesting es-get-iterator@^1.1.3
+requesting get-intrinsic@^1.2.2
+requesting is-arguments@^1.1.1
+requesting is-array-buffer@^3.0.2
+requesting is-date-object@^1.0.5
+requesting is-regex@^1.1.4
+requesting is-shared-array-buffer@^1.0.2
+requesting isarray@^2.0.5
+requesting object-is@^1.1.5
+requesting object-keys@^1.1.1
+requesting object.assign@^4.1.4
+requesting regexp.prototype.flags@^1.5.1
+requesting side-channel@^1.0.4
+requesting which-boxed-primitive@^1.0.2
+requesting which-collection@^1.0.1
+requesting which-typed-array@^1.1.13
+resolving which-typed-array to ../../Work/composable-sdk/node_modules/which-typed-array
+../../Work/composable-sdk/node_modules/which-typed-array: 36649
+size of which-typed-array is 36649
+requesting available-typed-arrays@^1.0.7
+requesting call-bind@^1.0.7
+requesting for-each@^0.3.3
+requesting gopd@^1.0.1
+requesting has-tostringtag@^1.0.2
+resolving has-tostringtag to ../../Work/composable-sdk/node_modules/has-tostringtag
+../../Work/composable-sdk/node_modules/has-tostringtag: 14043
+size of has-tostringtag is 14043
+requesting has-symbols@^1.0.3
+resolving has-symbols to ../../Work/composable-sdk/node_modules/has-symbols
+../../Work/composable-sdk/node_modules/has-symbols: 15937
+size of has-symbols is 15937
+resolving gopd to ../../Work/composable-sdk/node_modules/gopd
+../../Work/composable-sdk/node_modules/gopd: 6538
+size of gopd is 6538
+requesting get-intrinsic@^1.1.3
+resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
+../../Work/composable-sdk/node_modules/get-intrinsic: 32273
+size of get-intrinsic is 32273
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting has-proto@^1.0.1
+requesting has-symbols@^1.0.3
+requesting hasown@^2.0.0
+resolving hasown to ../../Work/composable-sdk/node_modules/hasown
+../../Work/composable-sdk/node_modules/hasown: 8213
+size of hasown is 8213
+requesting function-bind@^1.1.2
+resolving function-bind to ../../Work/composable-sdk/node_modules/function-bind
+../../Work/composable-sdk/node_modules/function-bind: 21519
+size of function-bind is 21519
+resolving has-proto to ../../Work/composable-sdk/node_modules/has-proto
+../../Work/composable-sdk/node_modules/has-proto: 10907
+size of has-proto is 10907
+resolving es-errors to ../../Work/composable-sdk/node_modules/es-errors
+../../Work/composable-sdk/node_modules/es-errors: 11413
+size of es-errors is 11413
+resolving for-each to ../../Work/composable-sdk/node_modules/for-each
+../../Work/composable-sdk/node_modules/for-each: 7358
+size of for-each is 7358
+requesting is-callable@^1.1.3
+resolving is-callable to ../../Work/composable-sdk/node_modules/is-callable
+../../Work/composable-sdk/node_modules/is-callable: 20424
+size of is-callable is 20424
+resolving call-bind to ../../Work/composable-sdk/node_modules/call-bind
+../../Work/composable-sdk/node_modules/call-bind: 15350
+size of call-bind is 15350
+requesting es-define-property@^1.0.0
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting get-intrinsic@^1.2.4
+requesting set-function-length@^1.2.1
+resolving set-function-length to ../../Work/composable-sdk/node_modules/set-function-length
+../../Work/composable-sdk/node_modules/set-function-length: 18432
+size of set-function-length is 18432
+requesting define-data-property@^1.1.2
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting get-intrinsic@^1.2.3
+requesting gopd@^1.0.1
+requesting has-property-descriptors@^1.0.1
+resolving has-property-descriptors to ../../Work/composable-sdk/node_modules/has-property-descriptors
+../../Work/composable-sdk/node_modules/has-property-descriptors: 8911
+size of has-property-descriptors is 8911
+requesting es-define-property@^1.0.0
+resolving es-define-property to ../../Work/composable-sdk/node_modules/es-define-property
+../../Work/composable-sdk/node_modules/es-define-property: 9990
+size of es-define-property is 9990
+requesting get-intrinsic@^1.2.4
+resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
+../../Work/composable-sdk/node_modules/get-intrinsic: 32273
+size of get-intrinsic is 32273
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting has-proto@^1.0.1
+requesting has-symbols@^1.0.3
+requesting hasown@^2.0.0
+resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
+../../Work/composable-sdk/node_modules/get-intrinsic: 32273
+size of get-intrinsic is 32273
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting has-proto@^1.0.1
+requesting has-symbols@^1.0.3
+requesting hasown@^2.0.0
+resolving define-data-property to ../../Work/composable-sdk/node_modules/define-data-property
+../../Work/composable-sdk/node_modules/define-data-property: 19330
+size of define-data-property is 19330
+requesting es-errors@^1.3.0
+requesting get-intrinsic@^1.2.2
+requesting gopd@^1.0.1
+requesting has-property-descriptors@^1.0.1
+resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
+../../Work/composable-sdk/node_modules/get-intrinsic: 32273
+size of get-intrinsic is 32273
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting has-proto@^1.0.1
+requesting has-symbols@^1.0.3
+requesting hasown@^2.0.0
+resolving available-typed-arrays to ../../Work/composable-sdk/node_modules/available-typed-arrays
+../../Work/composable-sdk/node_modules/available-typed-arrays: 19285
+size of available-typed-arrays is 19285
+requesting possible-typed-array-names@^1.0.0
+resolving possible-typed-array-names to ../../Work/composable-sdk/node_modules/possible-typed-array-names
+../../Work/composable-sdk/node_modules/possible-typed-array-names: 9949
+size of possible-typed-array-names is 9949
+resolving which-collection to ../../Work/composable-sdk/node_modules/which-collection
+../../Work/composable-sdk/node_modules/which-collection: 8931
+size of which-collection is 8931
+requesting is-map@^2.0.1
+requesting is-set@^2.0.1
+requesting is-weakmap@^2.0.1
+requesting is-weakset@^2.0.1
+resolving is-weakset to ../../Work/composable-sdk/node_modules/is-weakset
+../../Work/composable-sdk/node_modules/is-weakset: 13323
+size of is-weakset is 13323
+requesting call-bind@^1.0.2
+requesting get-intrinsic@^1.1.1
+resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
+../../Work/composable-sdk/node_modules/get-intrinsic: 32273
+size of get-intrinsic is 32273
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting has-proto@^1.0.1
+requesting has-symbols@^1.0.3
+requesting hasown@^2.0.0
+resolving call-bind to ../../Work/composable-sdk/node_modules/call-bind
+../../Work/composable-sdk/node_modules/call-bind: 15350
+size of call-bind is 15350
+requesting es-define-property@^1.0.0
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting get-intrinsic@^1.2.4
+requesting set-function-length@^1.2.1
+resolving is-weakmap to ../../Work/composable-sdk/node_modules/is-weakmap
+../../Work/composable-sdk/node_modules/is-weakmap: 8094
+size of is-weakmap is 8094
+resolving is-set to ../../Work/composable-sdk/node_modules/is-set
+../../Work/composable-sdk/node_modules/is-set: 10611
+size of is-set is 10611
+resolving is-map to ../../Work/composable-sdk/node_modules/is-map
+../../Work/composable-sdk/node_modules/is-map: 11017
+size of is-map is 11017
+resolving which-boxed-primitive to ../../Work/composable-sdk/node_modules/which-boxed-primitive
+../../Work/composable-sdk/node_modules/which-boxed-primitive: 12934
+size of which-boxed-primitive is 12934
+requesting is-bigint@^1.0.1
+requesting is-boolean-object@^1.1.0
+requesting is-number-object@^1.0.4
+requesting is-string@^1.0.5
+requesting is-symbol@^1.0.3
+resolving is-symbol to ../../Work/composable-sdk/node_modules/is-symbol
+../../Work/composable-sdk/node_modules/is-symbol: 18864
+size of is-symbol is 18864
+requesting has-symbols@^1.0.2
+resolving has-symbols to ../../Work/composable-sdk/node_modules/has-symbols
+../../Work/composable-sdk/node_modules/has-symbols: 15937
+size of has-symbols is 15937
+resolving is-string to ../../Work/composable-sdk/node_modules/is-string
+../../Work/composable-sdk/node_modules/is-string: 17136
+size of is-string is 17136
+requesting has-tostringtag@^1.0.0
+resolving has-tostringtag to ../../Work/composable-sdk/node_modules/has-tostringtag
+../../Work/composable-sdk/node_modules/has-tostringtag: 14043
+size of has-tostringtag is 14043
+requesting has-symbols@^1.0.3
+resolving is-number-object to ../../Work/composable-sdk/node_modules/is-number-object
+../../Work/composable-sdk/node_modules/is-number-object: 20312
+size of is-number-object is 20312
+requesting has-tostringtag@^1.0.0
+resolving is-boolean-object to ../../Work/composable-sdk/node_modules/is-boolean-object
+../../Work/composable-sdk/node_modules/is-boolean-object: 19904
+size of is-boolean-object is 19904
+requesting call-bind@^1.0.2
+requesting has-tostringtag@^1.0.0
+resolving is-bigint to ../../Work/composable-sdk/node_modules/is-bigint
+../../Work/composable-sdk/node_modules/is-bigint: 11949
+size of is-bigint is 11949
+requesting has-bigints@^1.0.1
+resolving has-bigints to ../../Work/composable-sdk/node_modules/has-bigints
+../../Work/composable-sdk/node_modules/has-bigints: 11188
+size of has-bigints is 11188
+resolving side-channel to ../../Work/composable-sdk/node_modules/side-channel
+../../Work/composable-sdk/node_modules/side-channel: 15376
+size of side-channel is 15376
+requesting call-bind@^1.0.6
+requesting es-errors@^1.3.0
+requesting get-intrinsic@^1.2.4
+requesting object-inspect@^1.13.1
+resolving object-inspect to ../../Work/composable-sdk/node_modules/object-inspect
+../../Work/composable-sdk/node_modules/object-inspect: 61290
+size of object-inspect is 61290
+resolving call-bind to ../../Work/composable-sdk/node_modules/call-bind
+../../Work/composable-sdk/node_modules/call-bind: 15350
+size of call-bind is 15350
+requesting es-define-property@^1.0.0
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting get-intrinsic@^1.2.4
+requesting set-function-length@^1.2.1
+resolving regexp.prototype.flags to ../../Work/composable-sdk/node_modules/regexp.prototype.flags
+../../Work/composable-sdk/node_modules/regexp.prototype.flags: 33271
+size of regexp.prototype.flags is 33271
+requesting call-bind@^1.0.6
+requesting define-properties@^1.2.1
+requesting es-errors@^1.3.0
+requesting set-function-name@^2.0.1
+resolving set-function-name to ../../Work/composable-sdk/node_modules/set-function-name
+../../Work/composable-sdk/node_modules/set-function-name: 9585
+size of set-function-name is 9585
+requesting define-data-property@^1.0.1
+requesting functions-have-names@^1.2.3
+requesting has-property-descriptors@^1.0.0
+resolving has-property-descriptors to ../../Work/composable-sdk/node_modules/has-property-descriptors
+../../Work/composable-sdk/node_modules/has-property-descriptors: 8911
+size of has-property-descriptors is 8911
+requesting es-define-property@^1.0.0
+resolving functions-have-names to ../../Work/composable-sdk/node_modules/functions-have-names
+../../Work/composable-sdk/node_modules/functions-have-names: 14166
+size of functions-have-names is 14166
+resolving define-data-property to ../../Work/composable-sdk/node_modules/define-data-property
+../../Work/composable-sdk/node_modules/define-data-property: 19330
+size of define-data-property is 19330
+requesting es-errors@^1.3.0
+requesting get-intrinsic@^1.2.2
+requesting gopd@^1.0.1
+requesting has-property-descriptors@^1.0.1
+resolving define-properties to ../../Work/composable-sdk/node_modules/define-properties
+../../Work/composable-sdk/node_modules/define-properties: 12302
+size of define-properties is 12302
+requesting define-data-property@^1.0.1
+requesting has-property-descriptors@^1.0.0
+requesting object-keys@^1.1.1
+resolving object-keys to ../../Work/composable-sdk/node_modules/object-keys
+../../Work/composable-sdk/node_modules/object-keys: 26483
+size of object-keys is 26483
+resolving object.assign to ../../Work/composable-sdk/node_modules/object.assign
+../../Work/composable-sdk/node_modules/object.assign: 22752
+size of object.assign is 22752
+requesting call-bind@^1.0.5
+requesting define-properties@^1.2.1
+requesting has-symbols@^1.0.3
+requesting object-keys@^1.1.1
+resolving call-bind to ../../Work/composable-sdk/node_modules/call-bind
+../../Work/composable-sdk/node_modules/call-bind: 15350
+size of call-bind is 15350
+requesting es-define-property@^1.0.0
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting get-intrinsic@^1.2.4
+requesting set-function-length@^1.2.1
+resolving object-is to ../../Work/composable-sdk/node_modules/object-is
+../../Work/composable-sdk/node_modules/object-is: 20321
+size of object-is is 20321
+requesting call-bind@^1.0.2
+requesting define-properties@^1.1.3
+resolving define-properties to ../../Work/composable-sdk/node_modules/define-properties
+../../Work/composable-sdk/node_modules/define-properties: 12302
+size of define-properties is 12302
+requesting define-data-property@^1.0.1
+requesting has-property-descriptors@^1.0.0
+requesting object-keys@^1.1.1
+resolving isarray to ../../Work/composable-sdk/node_modules/isarray
+../../Work/composable-sdk/node_modules/isarray: 3430
+size of isarray is 3430
+resolving is-shared-array-buffer to ../../Work/composable-sdk/node_modules/is-shared-array-buffer
+../../Work/composable-sdk/node_modules/is-shared-array-buffer: 16820
+size of is-shared-array-buffer is 16820
+requesting call-bind@^1.0.7
+resolving is-regex to ../../Work/composable-sdk/node_modules/is-regex
+../../Work/composable-sdk/node_modules/is-regex: 27115
+size of is-regex is 27115
+requesting call-bind@^1.0.2
+requesting has-tostringtag@^1.0.0
+resolving is-date-object to ../../Work/composable-sdk/node_modules/is-date-object
+../../Work/composable-sdk/node_modules/is-date-object: 19046
+size of is-date-object is 19046
+requesting has-tostringtag@^1.0.0
+resolving is-array-buffer to ../../Work/composable-sdk/node_modules/is-array-buffer
+../../Work/composable-sdk/node_modules/is-array-buffer: 15469
+size of is-array-buffer is 15469
+requesting call-bind@^1.0.2
+requesting get-intrinsic@^1.2.1
+resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
+../../Work/composable-sdk/node_modules/get-intrinsic: 32273
+size of get-intrinsic is 32273
+requesting es-errors@^1.3.0
+requesting function-bind@^1.1.2
+requesting has-proto@^1.0.1
+requesting has-symbols@^1.0.3
+requesting hasown@^2.0.0
+resolving is-arguments to ../../Work/composable-sdk/node_modules/is-arguments
+../../Work/composable-sdk/node_modules/is-arguments: 26878
+size of is-arguments is 26878
+requesting call-bind@^1.0.2
+requesting has-tostringtag@^1.0.0
+resolving es-get-iterator to ../../Work/composable-sdk/node_modules/es-get-iterator
+../../Work/composable-sdk/node_modules/es-get-iterator: 25286
+size of es-get-iterator is 25286
+requesting call-bind@^1.0.2
+requesting get-intrinsic@^1.1.3
+requesting has-symbols@^1.0.3
+requesting is-arguments@^1.1.1
+requesting is-map@^2.0.2
+requesting is-set@^2.0.2
+requesting is-string@^1.0.7
+requesting isarray@^2.0.5
+requesting stop-iteration-iterator@^1.0.0
+resolving stop-iteration-iterator to ../../Work/composable-sdk/node_modules/stop-iteration-iterator
+../../Work/composable-sdk/node_modules/stop-iteration-iterator: 6929
+size of stop-iteration-iterator is 6929
+requesting internal-slot@^1.0.4
+resolving internal-slot to ../../Work/composable-sdk/node_modules/internal-slot
+../../Work/composable-sdk/node_modules/internal-slot: 16949
+size of internal-slot is 16949
+requesting es-errors@^1.3.0
+requesting hasown@^2.0.0
+requesting side-channel@^1.0.4
+resolving is-string to ../../Work/composable-sdk/node_modules/is-string
+../../Work/composable-sdk/node_modules/is-string: 17136
+size of is-string is 17136
+requesting has-tostringtag@^1.0.0
+resolving is-set to ../../Work/composable-sdk/node_modules/is-set
+../../Work/composable-sdk/node_modules/is-set: 10611
+size of is-set is 10611
+resolving is-map to ../../Work/composable-sdk/node_modules/is-map
+../../Work/composable-sdk/node_modules/is-map: 11017
+size of is-map is 11017
+resolving array-buffer-byte-length to ../../Work/composable-sdk/node_modules/array-buffer-byte-length
+../../Work/composable-sdk/node_modules/array-buffer-byte-length: 12087
+size of array-buffer-byte-length is 12087
+requesting call-bind@^1.0.5
+requesting is-array-buffer@^3.0.4
+resolving is-array-buffer to ../../Work/composable-sdk/node_modules/is-array-buffer
+../../Work/composable-sdk/node_modules/is-array-buffer: 15469
+size of is-array-buffer is 15469
+requesting call-bind@^1.0.2
+requesting get-intrinsic@^1.2.1
+resolving @babel/runtime to ../../Work/composable-sdk/node_modules/@babel/runtime
+../../Work/composable-sdk/node_modules/@babel/runtime: 38598
+size of @babel/runtime is 38598
+requesting regenerator-runtime@^0.14.0
+resolving regenerator-runtime to ../../Work/composable-sdk/node_modules/regenerator-runtime
+../../Work/composable-sdk/node_modules/regenerator-runtime: 27863
+size of regenerator-runtime is 27863
+resolving @adobe/css-tools to ../../Work/composable-sdk/node_modules/@adobe/css-tools
+../../Work/composable-sdk/node_modules/@adobe/css-tools: 10426
+size of @adobe/css-tools is 10426
+composable-sdk size: 26.1MB bytes
+  @testing-library/jest-dom size: 26.1MB bytes
+    @adobe/css-tools size: 10.4KB bytes
+    @babel/runtime size: 66.5KB bytes
+      regenerator-runtime size: 27.9KB bytes
+    aria-query size: 24.4MB bytes
+      deep-equal size: 24.4MB bytes
+    chalk size: 84.8KB bytes
+      ansi-styles size: 50.9KB bytes
+      supports-color size: 11.5KB bytes
+    css.escape size: 6.49KB bytes
+    dom-accessibility-api size: 13.9KB bytes
+    lodash size: 1.32MB bytes
+    redent size: 14.3KB bytes
+      indent-string size: 4.4KB bytes
+      strip-indent size: 6.28KB bytes
+  tsx size: 36KB bytes
+    esbuild size: 13.5KB bytes
+    get-tsconfig size: 18.4KB bytes
+      resolve-pkg-maps size: 9.81KB bytes
