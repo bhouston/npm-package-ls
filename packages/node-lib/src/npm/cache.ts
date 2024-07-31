@@ -7,7 +7,7 @@ export const requestNodePackage = (
   name: string,
   version: string
 ): NodePackage => {
-  const key = `${name}@${version}`;
+  const key = `${name}`;
 
   //console.log(`requesting ${key}`);
 

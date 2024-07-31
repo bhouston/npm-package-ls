@@ -18,19 +18,7 @@ export async function initRootNodePackage(
     packagePath: rootPath,
     size: 0,
     totalSize: undefined,
-    workspaces: rootPackageJson.workspaces
-      ? rootPackageJson.workspaces.map((workspace: string) => ({
-          parentPackagePath: rootPath,
-          name: workspace,
-          version: '',
-          packagePath: undefined,
-          size: undefined,
-          totalSize: undefined,
-          workspaces: undefined,
-          dependencies: undefined,
-          devDependencies: undefined
-        }))
-      : undefined,
+    workspaces: undefined,
     dependencies: undefined,
     devDependencies: undefined
   };

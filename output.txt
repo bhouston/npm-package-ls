@@ -31,475 +31,608 @@
    Nx read the output from the cache instead of running the command for 1 out of 3 tasks.
 
 Analyzing ../../Work/composable-sdk/
-requesting @testing-library/jest-dom@^6.4.6
-requesting tsx@^4.10.3
-resolving tsx to ../../Work/composable-sdk/node_modules/tsx
-../../Work/composable-sdk/node_modules/tsx: 4141
-size of tsx is 4141
-requesting esbuild@~0.20.2
-requesting get-tsconfig@^4.7.5
-resolving get-tsconfig to ../../Work/composable-sdk/node_modules/get-tsconfig
-../../Work/composable-sdk/node_modules/get-tsconfig: 8538
-size of get-tsconfig is 8538
-requesting resolve-pkg-maps@^1.0.0
-resolving resolve-pkg-maps to ../../Work/composable-sdk/node_modules/resolve-pkg-maps
-../../Work/composable-sdk/node_modules/resolve-pkg-maps: 9813
-size of resolve-pkg-maps is 9813
-resolving esbuild to ../../Work/composable-sdk/node_modules/tsx/node_modules/esbuild
-../../Work/composable-sdk/node_modules/tsx/node_modules/esbuild: 13547
-size of esbuild is 13547
-resolving @testing-library/jest-dom to ../../Work/composable-sdk/node_modules/@testing-library/jest-dom
-../../Work/composable-sdk/node_modules/@testing-library/jest-dom: 89296
-size of @testing-library/jest-dom is 89296
-requesting @adobe/css-tools@^4.4.0
-requesting @babel/runtime@^7.9.2
-requesting aria-query@^5.0.0
-requesting chalk@^3.0.0
-requesting css.escape@^1.5.1
-requesting dom-accessibility-api@^0.6.3
-requesting lodash@^4.17.21
-requesting redent@^3.0.0
-resolving redent to ../../Work/composable-sdk/node_modules/redent
-../../Work/composable-sdk/node_modules/redent: 3599
-size of redent is 3599
-requesting indent-string@^4.0.0
-requesting strip-indent@^3.0.0
-resolving strip-indent to ../../Work/composable-sdk/node_modules/strip-indent
-../../Work/composable-sdk/node_modules/strip-indent: 3312
-size of strip-indent is 3312
-requesting min-indent@^1.0.0
-resolving min-indent to ../../Work/composable-sdk/node_modules/min-indent
-../../Work/composable-sdk/node_modules/min-indent: 2969
-size of min-indent is 2969
-resolving indent-string to ../../Work/composable-sdk/node_modules/indent-string
-../../Work/composable-sdk/node_modules/indent-string: 4398
-size of indent-string is 4398
-resolving lodash to ../../Work/composable-sdk/node_modules/lodash
-../../Work/composable-sdk/node_modules/lodash: 1323548
-size of lodash is 1323548
-resolving dom-accessibility-api to ../../Work/composable-sdk/node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api
-../../Work/composable-sdk/node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api: 13851
-size of dom-accessibility-api is 13851
-resolving css.escape to ../../Work/composable-sdk/node_modules/css.escape
-../../Work/composable-sdk/node_modules/css.escape: 6486
-size of css.escape is 6486
-resolving chalk to ../../Work/composable-sdk/node_modules/@testing-library/jest-dom/node_modules/chalk
-../../Work/composable-sdk/node_modules/@testing-library/jest-dom/node_modules/chalk: 22470
-size of chalk is 22470
-requesting ansi-styles@^4.1.0
-requesting supports-color@^7.1.0
-resolving supports-color to ../../Work/composable-sdk/node_modules/supports-color
-../../Work/composable-sdk/node_modules/supports-color: 7035
-size of supports-color is 7035
-requesting has-flag@^4.0.0
-resolving has-flag to ../../Work/composable-sdk/node_modules/has-flag
-../../Work/composable-sdk/node_modules/has-flag: 4419
-size of has-flag is 4419
-resolving ansi-styles to ../../Work/composable-sdk/node_modules/ansi-styles
-../../Work/composable-sdk/node_modules/ansi-styles: 16978
-size of ansi-styles is 16978
-requesting color-convert@^2.0.1
-resolving color-convert to ../../Work/composable-sdk/node_modules/color-convert
-../../Work/composable-sdk/node_modules/color-convert: 27189
-size of color-convert is 27189
-requesting color-name@~1.1.4
-resolving color-name to ../../Work/composable-sdk/node_modules/color-name
-../../Work/composable-sdk/node_modules/color-name: 6693
-size of color-name is 6693
-resolving aria-query to ../../Work/composable-sdk/node_modules/aria-query
-../../Work/composable-sdk/node_modules/aria-query: 19215
-size of aria-query is 19215
-requesting deep-equal@^2.0.5
-resolving deep-equal to ../../Work/composable-sdk/node_modules/deep-equal
-../../Work/composable-sdk/node_modules/deep-equal: 59101
-size of deep-equal is 59101
-requesting array-buffer-byte-length@^1.0.0
-requesting call-bind@^1.0.5
-requesting es-get-iterator@^1.1.3
-requesting get-intrinsic@^1.2.2
-requesting is-arguments@^1.1.1
-requesting is-array-buffer@^3.0.2
-requesting is-date-object@^1.0.5
-requesting is-regex@^1.1.4
-requesting is-shared-array-buffer@^1.0.2
-requesting isarray@^2.0.5
-requesting object-is@^1.1.5
-requesting object-keys@^1.1.1
-requesting object.assign@^4.1.4
-requesting regexp.prototype.flags@^1.5.1
-requesting side-channel@^1.0.4
-requesting which-boxed-primitive@^1.0.2
-requesting which-collection@^1.0.1
-requesting which-typed-array@^1.1.13
-resolving which-typed-array to ../../Work/composable-sdk/node_modules/which-typed-array
-../../Work/composable-sdk/node_modules/which-typed-array: 36649
-size of which-typed-array is 36649
-requesting available-typed-arrays@^1.0.7
-requesting call-bind@^1.0.7
-requesting for-each@^0.3.3
-requesting gopd@^1.0.1
-requesting has-tostringtag@^1.0.2
-resolving has-tostringtag to ../../Work/composable-sdk/node_modules/has-tostringtag
-../../Work/composable-sdk/node_modules/has-tostringtag: 14043
-size of has-tostringtag is 14043
-requesting has-symbols@^1.0.3
-resolving has-symbols to ../../Work/composable-sdk/node_modules/has-symbols
-../../Work/composable-sdk/node_modules/has-symbols: 15937
-size of has-symbols is 15937
-resolving gopd to ../../Work/composable-sdk/node_modules/gopd
-../../Work/composable-sdk/node_modules/gopd: 6538
-size of gopd is 6538
-requesting get-intrinsic@^1.1.3
-resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
-../../Work/composable-sdk/node_modules/get-intrinsic: 32273
-size of get-intrinsic is 32273
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting has-proto@^1.0.1
-requesting has-symbols@^1.0.3
-requesting hasown@^2.0.0
-resolving hasown to ../../Work/composable-sdk/node_modules/hasown
-../../Work/composable-sdk/node_modules/hasown: 8213
-size of hasown is 8213
-requesting function-bind@^1.1.2
-resolving function-bind to ../../Work/composable-sdk/node_modules/function-bind
-../../Work/composable-sdk/node_modules/function-bind: 21519
-size of function-bind is 21519
-resolving has-proto to ../../Work/composable-sdk/node_modules/has-proto
-../../Work/composable-sdk/node_modules/has-proto: 10907
-size of has-proto is 10907
-resolving es-errors to ../../Work/composable-sdk/node_modules/es-errors
-../../Work/composable-sdk/node_modules/es-errors: 11413
-size of es-errors is 11413
-resolving for-each to ../../Work/composable-sdk/node_modules/for-each
-../../Work/composable-sdk/node_modules/for-each: 7358
-size of for-each is 7358
-requesting is-callable@^1.1.3
-resolving is-callable to ../../Work/composable-sdk/node_modules/is-callable
-../../Work/composable-sdk/node_modules/is-callable: 20424
-size of is-callable is 20424
-resolving call-bind to ../../Work/composable-sdk/node_modules/call-bind
-../../Work/composable-sdk/node_modules/call-bind: 15350
-size of call-bind is 15350
-requesting es-define-property@^1.0.0
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting get-intrinsic@^1.2.4
-requesting set-function-length@^1.2.1
-resolving set-function-length to ../../Work/composable-sdk/node_modules/set-function-length
-../../Work/composable-sdk/node_modules/set-function-length: 18432
-size of set-function-length is 18432
-requesting define-data-property@^1.1.2
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting get-intrinsic@^1.2.3
-requesting gopd@^1.0.1
-requesting has-property-descriptors@^1.0.1
-resolving has-property-descriptors to ../../Work/composable-sdk/node_modules/has-property-descriptors
-../../Work/composable-sdk/node_modules/has-property-descriptors: 8911
-size of has-property-descriptors is 8911
-requesting es-define-property@^1.0.0
-resolving es-define-property to ../../Work/composable-sdk/node_modules/es-define-property
-../../Work/composable-sdk/node_modules/es-define-property: 9990
-size of es-define-property is 9990
-requesting get-intrinsic@^1.2.4
-resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
-../../Work/composable-sdk/node_modules/get-intrinsic: 32273
-size of get-intrinsic is 32273
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting has-proto@^1.0.1
-requesting has-symbols@^1.0.3
-requesting hasown@^2.0.0
-resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
-../../Work/composable-sdk/node_modules/get-intrinsic: 32273
-size of get-intrinsic is 32273
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting has-proto@^1.0.1
-requesting has-symbols@^1.0.3
-requesting hasown@^2.0.0
-resolving define-data-property to ../../Work/composable-sdk/node_modules/define-data-property
-../../Work/composable-sdk/node_modules/define-data-property: 19330
-size of define-data-property is 19330
-requesting es-errors@^1.3.0
-requesting get-intrinsic@^1.2.2
-requesting gopd@^1.0.1
-requesting has-property-descriptors@^1.0.1
-resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
-../../Work/composable-sdk/node_modules/get-intrinsic: 32273
-size of get-intrinsic is 32273
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting has-proto@^1.0.1
-requesting has-symbols@^1.0.3
-requesting hasown@^2.0.0
-resolving available-typed-arrays to ../../Work/composable-sdk/node_modules/available-typed-arrays
-../../Work/composable-sdk/node_modules/available-typed-arrays: 19285
-size of available-typed-arrays is 19285
-requesting possible-typed-array-names@^1.0.0
-resolving possible-typed-array-names to ../../Work/composable-sdk/node_modules/possible-typed-array-names
-../../Work/composable-sdk/node_modules/possible-typed-array-names: 9949
-size of possible-typed-array-names is 9949
-resolving which-collection to ../../Work/composable-sdk/node_modules/which-collection
-../../Work/composable-sdk/node_modules/which-collection: 8931
-size of which-collection is 8931
-requesting is-map@^2.0.1
-requesting is-set@^2.0.1
-requesting is-weakmap@^2.0.1
-requesting is-weakset@^2.0.1
-resolving is-weakset to ../../Work/composable-sdk/node_modules/is-weakset
-../../Work/composable-sdk/node_modules/is-weakset: 13323
-size of is-weakset is 13323
-requesting call-bind@^1.0.2
-requesting get-intrinsic@^1.1.1
-resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
-../../Work/composable-sdk/node_modules/get-intrinsic: 32273
-size of get-intrinsic is 32273
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting has-proto@^1.0.1
-requesting has-symbols@^1.0.3
-requesting hasown@^2.0.0
-resolving call-bind to ../../Work/composable-sdk/node_modules/call-bind
-../../Work/composable-sdk/node_modules/call-bind: 15350
-size of call-bind is 15350
-requesting es-define-property@^1.0.0
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting get-intrinsic@^1.2.4
-requesting set-function-length@^1.2.1
-resolving is-weakmap to ../../Work/composable-sdk/node_modules/is-weakmap
-../../Work/composable-sdk/node_modules/is-weakmap: 8094
-size of is-weakmap is 8094
-resolving is-set to ../../Work/composable-sdk/node_modules/is-set
-../../Work/composable-sdk/node_modules/is-set: 10611
-size of is-set is 10611
-resolving is-map to ../../Work/composable-sdk/node_modules/is-map
-../../Work/composable-sdk/node_modules/is-map: 11017
-size of is-map is 11017
-resolving which-boxed-primitive to ../../Work/composable-sdk/node_modules/which-boxed-primitive
-../../Work/composable-sdk/node_modules/which-boxed-primitive: 12934
-size of which-boxed-primitive is 12934
-requesting is-bigint@^1.0.1
-requesting is-boolean-object@^1.1.0
-requesting is-number-object@^1.0.4
-requesting is-string@^1.0.5
-requesting is-symbol@^1.0.3
-resolving is-symbol to ../../Work/composable-sdk/node_modules/is-symbol
-../../Work/composable-sdk/node_modules/is-symbol: 18864
-size of is-symbol is 18864
-requesting has-symbols@^1.0.2
-resolving has-symbols to ../../Work/composable-sdk/node_modules/has-symbols
-../../Work/composable-sdk/node_modules/has-symbols: 15937
-size of has-symbols is 15937
-resolving is-string to ../../Work/composable-sdk/node_modules/is-string
-../../Work/composable-sdk/node_modules/is-string: 17136
-size of is-string is 17136
-requesting has-tostringtag@^1.0.0
-resolving has-tostringtag to ../../Work/composable-sdk/node_modules/has-tostringtag
-../../Work/composable-sdk/node_modules/has-tostringtag: 14043
-size of has-tostringtag is 14043
-requesting has-symbols@^1.0.3
-resolving is-number-object to ../../Work/composable-sdk/node_modules/is-number-object
-../../Work/composable-sdk/node_modules/is-number-object: 20312
-size of is-number-object is 20312
-requesting has-tostringtag@^1.0.0
-resolving is-boolean-object to ../../Work/composable-sdk/node_modules/is-boolean-object
-../../Work/composable-sdk/node_modules/is-boolean-object: 19904
-size of is-boolean-object is 19904
-requesting call-bind@^1.0.2
-requesting has-tostringtag@^1.0.0
-resolving is-bigint to ../../Work/composable-sdk/node_modules/is-bigint
-../../Work/composable-sdk/node_modules/is-bigint: 11949
-size of is-bigint is 11949
-requesting has-bigints@^1.0.1
-resolving has-bigints to ../../Work/composable-sdk/node_modules/has-bigints
-../../Work/composable-sdk/node_modules/has-bigints: 11188
-size of has-bigints is 11188
-resolving side-channel to ../../Work/composable-sdk/node_modules/side-channel
-../../Work/composable-sdk/node_modules/side-channel: 15376
-size of side-channel is 15376
-requesting call-bind@^1.0.6
-requesting es-errors@^1.3.0
-requesting get-intrinsic@^1.2.4
-requesting object-inspect@^1.13.1
-resolving object-inspect to ../../Work/composable-sdk/node_modules/object-inspect
-../../Work/composable-sdk/node_modules/object-inspect: 61290
-size of object-inspect is 61290
-resolving call-bind to ../../Work/composable-sdk/node_modules/call-bind
-../../Work/composable-sdk/node_modules/call-bind: 15350
-size of call-bind is 15350
-requesting es-define-property@^1.0.0
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting get-intrinsic@^1.2.4
-requesting set-function-length@^1.2.1
-resolving regexp.prototype.flags to ../../Work/composable-sdk/node_modules/regexp.prototype.flags
-../../Work/composable-sdk/node_modules/regexp.prototype.flags: 33271
-size of regexp.prototype.flags is 33271
-requesting call-bind@^1.0.6
-requesting define-properties@^1.2.1
-requesting es-errors@^1.3.0
-requesting set-function-name@^2.0.1
-resolving set-function-name to ../../Work/composable-sdk/node_modules/set-function-name
-../../Work/composable-sdk/node_modules/set-function-name: 9585
-size of set-function-name is 9585
-requesting define-data-property@^1.0.1
-requesting functions-have-names@^1.2.3
-requesting has-property-descriptors@^1.0.0
-resolving has-property-descriptors to ../../Work/composable-sdk/node_modules/has-property-descriptors
-../../Work/composable-sdk/node_modules/has-property-descriptors: 8911
-size of has-property-descriptors is 8911
-requesting es-define-property@^1.0.0
-resolving functions-have-names to ../../Work/composable-sdk/node_modules/functions-have-names
-../../Work/composable-sdk/node_modules/functions-have-names: 14166
-size of functions-have-names is 14166
-resolving define-data-property to ../../Work/composable-sdk/node_modules/define-data-property
-../../Work/composable-sdk/node_modules/define-data-property: 19330
-size of define-data-property is 19330
-requesting es-errors@^1.3.0
-requesting get-intrinsic@^1.2.2
-requesting gopd@^1.0.1
-requesting has-property-descriptors@^1.0.1
-resolving define-properties to ../../Work/composable-sdk/node_modules/define-properties
-../../Work/composable-sdk/node_modules/define-properties: 12302
-size of define-properties is 12302
-requesting define-data-property@^1.0.1
-requesting has-property-descriptors@^1.0.0
-requesting object-keys@^1.1.1
-resolving object-keys to ../../Work/composable-sdk/node_modules/object-keys
-../../Work/composable-sdk/node_modules/object-keys: 26483
-size of object-keys is 26483
-resolving object.assign to ../../Work/composable-sdk/node_modules/object.assign
-../../Work/composable-sdk/node_modules/object.assign: 22752
-size of object.assign is 22752
-requesting call-bind@^1.0.5
-requesting define-properties@^1.2.1
-requesting has-symbols@^1.0.3
-requesting object-keys@^1.1.1
-resolving call-bind to ../../Work/composable-sdk/node_modules/call-bind
-../../Work/composable-sdk/node_modules/call-bind: 15350
-size of call-bind is 15350
-requesting es-define-property@^1.0.0
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting get-intrinsic@^1.2.4
-requesting set-function-length@^1.2.1
-resolving object-is to ../../Work/composable-sdk/node_modules/object-is
-../../Work/composable-sdk/node_modules/object-is: 20321
-size of object-is is 20321
-requesting call-bind@^1.0.2
-requesting define-properties@^1.1.3
-resolving define-properties to ../../Work/composable-sdk/node_modules/define-properties
-../../Work/composable-sdk/node_modules/define-properties: 12302
-size of define-properties is 12302
-requesting define-data-property@^1.0.1
-requesting has-property-descriptors@^1.0.0
-requesting object-keys@^1.1.1
-resolving isarray to ../../Work/composable-sdk/node_modules/isarray
-../../Work/composable-sdk/node_modules/isarray: 3430
-size of isarray is 3430
-resolving is-shared-array-buffer to ../../Work/composable-sdk/node_modules/is-shared-array-buffer
-../../Work/composable-sdk/node_modules/is-shared-array-buffer: 16820
-size of is-shared-array-buffer is 16820
-requesting call-bind@^1.0.7
-resolving is-regex to ../../Work/composable-sdk/node_modules/is-regex
-../../Work/composable-sdk/node_modules/is-regex: 27115
-size of is-regex is 27115
-requesting call-bind@^1.0.2
-requesting has-tostringtag@^1.0.0
-resolving is-date-object to ../../Work/composable-sdk/node_modules/is-date-object
-../../Work/composable-sdk/node_modules/is-date-object: 19046
-size of is-date-object is 19046
-requesting has-tostringtag@^1.0.0
-resolving is-array-buffer to ../../Work/composable-sdk/node_modules/is-array-buffer
-../../Work/composable-sdk/node_modules/is-array-buffer: 15469
-size of is-array-buffer is 15469
-requesting call-bind@^1.0.2
-requesting get-intrinsic@^1.2.1
-resolving get-intrinsic to ../../Work/composable-sdk/node_modules/get-intrinsic
-../../Work/composable-sdk/node_modules/get-intrinsic: 32273
-size of get-intrinsic is 32273
-requesting es-errors@^1.3.0
-requesting function-bind@^1.1.2
-requesting has-proto@^1.0.1
-requesting has-symbols@^1.0.3
-requesting hasown@^2.0.0
-resolving is-arguments to ../../Work/composable-sdk/node_modules/is-arguments
-../../Work/composable-sdk/node_modules/is-arguments: 26878
-size of is-arguments is 26878
-requesting call-bind@^1.0.2
-requesting has-tostringtag@^1.0.0
-resolving es-get-iterator to ../../Work/composable-sdk/node_modules/es-get-iterator
-../../Work/composable-sdk/node_modules/es-get-iterator: 25286
-size of es-get-iterator is 25286
-requesting call-bind@^1.0.2
-requesting get-intrinsic@^1.1.3
-requesting has-symbols@^1.0.3
-requesting is-arguments@^1.1.1
-requesting is-map@^2.0.2
-requesting is-set@^2.0.2
-requesting is-string@^1.0.7
-requesting isarray@^2.0.5
-requesting stop-iteration-iterator@^1.0.0
-resolving stop-iteration-iterator to ../../Work/composable-sdk/node_modules/stop-iteration-iterator
-../../Work/composable-sdk/node_modules/stop-iteration-iterator: 6929
-size of stop-iteration-iterator is 6929
-requesting internal-slot@^1.0.4
-resolving internal-slot to ../../Work/composable-sdk/node_modules/internal-slot
-../../Work/composable-sdk/node_modules/internal-slot: 16949
-size of internal-slot is 16949
-requesting es-errors@^1.3.0
-requesting hasown@^2.0.0
-requesting side-channel@^1.0.4
-resolving is-string to ../../Work/composable-sdk/node_modules/is-string
-../../Work/composable-sdk/node_modules/is-string: 17136
-size of is-string is 17136
-requesting has-tostringtag@^1.0.0
-resolving is-set to ../../Work/composable-sdk/node_modules/is-set
-../../Work/composable-sdk/node_modules/is-set: 10611
-size of is-set is 10611
-resolving is-map to ../../Work/composable-sdk/node_modules/is-map
-../../Work/composable-sdk/node_modules/is-map: 11017
-size of is-map is 11017
-resolving array-buffer-byte-length to ../../Work/composable-sdk/node_modules/array-buffer-byte-length
-../../Work/composable-sdk/node_modules/array-buffer-byte-length: 12087
-size of array-buffer-byte-length is 12087
-requesting call-bind@^1.0.5
-requesting is-array-buffer@^3.0.4
-resolving is-array-buffer to ../../Work/composable-sdk/node_modules/is-array-buffer
-../../Work/composable-sdk/node_modules/is-array-buffer: 15469
-size of is-array-buffer is 15469
-requesting call-bind@^1.0.2
-requesting get-intrinsic@^1.2.1
-resolving @babel/runtime to ../../Work/composable-sdk/node_modules/@babel/runtime
-../../Work/composable-sdk/node_modules/@babel/runtime: 38598
-size of @babel/runtime is 38598
-requesting regenerator-runtime@^0.14.0
-resolving regenerator-runtime to ../../Work/composable-sdk/node_modules/regenerator-runtime
-../../Work/composable-sdk/node_modules/regenerator-runtime: 27863
-size of regenerator-runtime is 27863
-resolving @adobe/css-tools to ../../Work/composable-sdk/node_modules/@adobe/css-tools
-../../Work/composable-sdk/node_modules/@adobe/css-tools: 10426
-size of @adobe/css-tools is 10426
-composable-sdk size: 26.1MB bytes
-  @testing-library/jest-dom size: 26.1MB bytes
-    @adobe/css-tools size: 10.4KB bytes
-    @babel/runtime size: 66.5KB bytes
-      regenerator-runtime size: 27.9KB bytes
-    aria-query size: 24.4MB bytes
-      deep-equal size: 24.4MB bytes
-    chalk size: 84.8KB bytes
-      ansi-styles size: 50.9KB bytes
-      supports-color size: 11.5KB bytes
-    css.escape size: 6.49KB bytes
-    dom-accessibility-api size: 13.9KB bytes
-    lodash size: 1.32MB bytes
-    redent size: 14.3KB bytes
-      indent-string size: 4.4KB bytes
-      strip-indent size: 6.28KB bytes
-  tsx size: 36KB bytes
-    esbuild size: 13.5KB bytes
-    get-tsconfig size: 18.4KB bytes
-      resolve-pkg-maps size: 9.81KB bytes
+composable-sdk@<none> - NaNB / NaNB
+ devDeps:
+  @testing-library/jest-dom@^6.4.6 - 265KB / 
+   deps:
+    @adobe/css-tools@^4.4.0 - 187KB / 
+    @babel/runtime@^7.8.4 - 249KB / 
+    aria-query@~5.1.3 - 176KB / 
+    chalk@^4.1.2 - 35KB / 
+    css.escape@^1.5.1 - 6.49KB / 
+    dom-accessibility-api@^0.6.3 - 275KB / 
+    lodash@^4.17.19 - 1.41MB / 
+    redent@^3.0.0 - 3.6KB / 
+   devDeps:
+    @jest/globals@^29.7.0 - 5.26KB / 
+    @rollup/plugin-commonjs@^25.0.7 -  / 
+    @types/bun@latest -  / 
+    @types/web@latest -  / 
+    expect@^26.0.1 - 146KB / 
+    jest-environment-jsdom-sixteen@^1.0.3 -  / 
+    jest-watch-select-projects@^2.0.0 -  / 
+    jsdom@^24.0.0 -  / 
+    kcd-scripts@^5.5.0 -  / 
+    pretty-format@^29.5.0 - 60.7KB / 
+    rollup@^2.56.3 - 2.28MB / 
+    rollup-plugin-delete@^2.0.0 -  / 
+    typescript@^5.5 - 21.9MB / 
+    vitest@^0.34.0 -  / 
+  @types/jest@^29.5.4 - 78.7KB / 
+   deps:
+    expect@^26.0.1 - 146KB / 
+    pretty-format@^29.5.0 - 60.7KB / 
+  @types/node@^20.10.4 - 4MB / 
+   deps:
+    undici-types@~5.26.4 - 73.1KB / 
+  @types/react@^18.2.21 - 416KB / 
+   deps:
+    @types/prop-types@* - 6.16KB / 
+    @types/scheduler@* - 8.25KB / 
+    csstype@^3.0.2 - 1.25MB / 
+  @types/react-dom@^18.2.7 - 37.8KB / 
+   deps:
+    @types/react@^18.2.21 - 416KB / 
+  @types/three@0.161.1 - 1.09MB / 
+   deps:
+    @types/stats.js@* - 4.07KB / 
+    @types/webxr@* - 40.1KB / 
+    fflate@~0.6.10 - 520KB / 
+    meshoptimizer@~0.18.1 - 163KB / 
+  @typescript-eslint/eslint-plugin@^5.62.0 - 2.43MB / 
+   deps:
+    @eslint-community/regexpp@^4.6.1 - 431KB / 
+    @typescript-eslint/scope-manager@5.62.0 - 592KB / 
+    @typescript-eslint/type-utils@5.62.0 - 88KB / 
+    @typescript-eslint/utils@^7.11.0 - 501KB / 
+    debug@4.3.4 - 42.4KB / 
+    graphemer@^1.4.0 - 812KB / 
+    ignore@^5.2.0 - 51.5KB / 
+    natural-compare-lite@^1.4.0 - 5.63KB / 
+    semver@^7.5.1 - 94.2KB / 
+    tsutils@^3.21.0 - 382KB / 
+   devDeps:
+    @types/debug@4.1.12 -  / 
+    @types/json-schema@* - 31.7KB / 
+    @types/marked@* -  / 
+    @types/natural-compare-lite@^1.4.0 -  / 
+    @types/prettier@* -  / 
+    chalk@^4.1.2 - 35KB / 
+    cross-fetch@^3.1.5 - 88.1KB / 
+    json-schema@* -  / 
+    markdown-table@^3.0.2 -  / 
+    marked@^4.0.8 -  / 
+    prettier@^2.8.8 - 11.2MB / 
+    title-case@^3.0.3 -  / 
+    typescript@^5.5 - 21.9MB / 
+  concurrently@^8.2.2 - 122KB / 
+   deps:
+    chalk@^4.1.2 - 35KB / 
+    date-fns@^3.2.0 - 6.69MB / 
+    lodash@^4.17.19 - 1.41MB / 
+    rxjs@^7.5.6 - 4.5MB / 
+    shell-quote@^1.8.1 - 45KB / 
+    spawn-command@0.0.2 - 3.94KB / 
+    supports-color@^7.1.0 - 7.04KB / 
+    tree-kill@^1.2.2 - 7.82KB / 
+    yargs@17.7.2 - 292KB / 
+   devDeps:
+    @hirez_io/observer-spy@^2.2.0 -  / 
+    @swc/core@>=1.2.205 - 213KB / 
+    @swc/jest@^0.2.29 - 13.3KB / 
+    @types/jest@^29.5.4 - 78.7KB / 
+    @types/lodash@^4.14.151 - 862KB / 
+    @types/node@^20.10.4 - 4MB / 
+    @types/shell-quote@^1.7.3 -  / 
+    @types/supports-color@^8.1.0 -  / 
+    @types/yargs@17.0.32 - 60.2KB / 
+    @typescript-eslint/eslint-plugin@^5.62.0 - 2.43MB / 
+    @typescript-eslint/parser@^7.11.0 - 18.6KB / 
+    coveralls-next@^4.2.0 -  / 
+    ctrlc-wrapper@^0.0.4 -  / 
+    esbuild@^0.21.4 - 9.63MB / 
+    eslint@^8.42.0 - 3.03MB / 
+    eslint-config-prettier@^8.8.0 - 19.9KB / 
+    eslint-plugin-import@^2.27.5 - 1.21MB / 
+    eslint-plugin-jest@^27.6.3 -  / 
+    eslint-plugin-prettier@^4.2.1 - 58.3KB / 
+    eslint-plugin-simple-import-sort@^10.0.0 - 37.3KB / 
+    husky@^8.0.3 -  / 
+    jest@^29.6.4 - 5.01KB / 
+    jest-create-mock-instance@^2.0.0 -  / 
+    lint-staged@^13.2.1 -  / 
+    prettier@^2.8.8 - 11.2MB / 
+    safe-publish-latest@^1.1.4 -  / 
+    string-argv@^0.3.2 - 7.8KB / 
+    typescript@^5.5 - 21.9MB / 
+  dotenv@^16.3.1 - 79.1KB / 
+   devDeps:
+    @definitelytyped/dtslint@^0.0.133 -  / 
+    @types/node@^20.10.4 - 4MB / 
+    decache@^4.5.1 - 11.1KB / 
+    sinon@^11.0.0 -  / 
+    standard@^14.3.1 -  / 
+    standard-markdown@^6.0.0 -  / 
+    standard-version@^8.0.0 -  / 
+    tap@^14.6.9 -  / 
+    tar@^4.4.8 - 167KB / 
+    typescript@^5.5 - 21.9MB / 
+  eslint@^8.42.0 - 3.03MB / 
+   deps:
+    @eslint-community/eslint-utils@^4.2.0 - 379KB / 
+    @eslint-community/regexpp@^4.6.1 - 431KB / 
+    @eslint/eslintrc@^2.1.4 - 659KB / 
+    @eslint/js@8.56.0 - 13.9KB / 
+    @humanwhocodes/config-array@^0.11.13 - 55.6KB / 
+    @humanwhocodes/module-importer@^1.0.1 - 21.2KB / 
+    @nodelib/fs.walk@^1.2.8 - 26.4KB / 
+    @ungap/structured-clone@^1.2.0 - 26.2KB / 
+    ajv@^6.12.4 - 929KB / 
+    chalk@^4.1.2 - 35KB / 
+    cross-spawn@^7.0.0 - 21.2KB / 
+    debug@4.3.4 - 42.4KB / 
+    doctrine@^3.0.0 - 106KB / 
+    escape-string-regexp@^4.0.0 - 3.79KB / 
+    eslint-scope@5.1.1 - 78.4KB / 
+    eslint-visitor-keys@^3.4.3 - 32.3KB / 
+    espree@^9.6.1 - 73.6KB / 
+    esquery@^1.4.2 - 1MB / 
+    esutils@^2.0.2 - 50.6KB / 
+    fast-deep-equal@^3.1.3 - 13KB / 
+    file-entry-cache@^6.0.1 - 25.6KB / 
+    find-up@^5.0.0 - 11.8KB / 
+    glob-parent@^6.0.2 - 7.72KB / 
+    globals@^13.19.0 - 52.1KB / 
+    graphemer@^1.4.0 - 812KB / 
+    ignore@^5.2.0 - 51.5KB / 
+    imurmurhash@^0.1.4 - 11.9KB / 
+    is-glob@^4.0.0 - 13.6KB / 
+    is-path-inside@^3.0.3 - 4.12KB / 
+    js-yaml@^4.1.0 - 405KB / 
+    json-stable-stringify-without-jsonify@^1.0.1 - 14.2KB / 
+    levn@^0.4.1 - 24.9KB / 
+    lodash.merge@^4.6.2 - 54.1KB / 
+    minimatch@^3.1.1 - 34.9KB / 
+    natural-compare@^1.4.0 - 5.65KB / 
+    optionator@^0.9.3 - 50.2KB / 
+    strip-ansi@^6.0.0 - 4.03KB / 
+    text-table@^0.2.0 - 11KB / 
+   devDeps:
+    @babel/core@^7.23.7 - 778KB / 
+    @babel/preset-env@^7.4.3 - 148KB / 
+    @wdio/browser-runner@^8.14.6 -  / 
+    @wdio/cli@^8.14.6 -  / 
+    @wdio/concise-reporter@^8.14.0 -  / 
+    @wdio/globals@^8.14.6 -  / 
+    @wdio/mocha-framework@^8.14.0 -  / 
+    babel-loader@^8.1.0 -  / 
+    c8@^9.1.0 -  / 
+    chai@^4.4.1 - 754KB / 
+    cheerio@^0.22.0 -  / 
+    common-tags@^1.8.0 -  / 
+    core-js@^3.6.5 -  / 
+    ejs@^3.0.2 - 142KB / 
+    eslint@^8.42.0 - 3.03MB / 
+    eslint-config-eslint@file:packages/eslint-config-eslint -  / 
+    eslint-plugin-eslint-comments@^3.2.0 -  / 
+    eslint-plugin-eslint-plugin@^5.2.1 -  / 
+    eslint-plugin-internal-rules@file:tools/internal-rules -  / 
+    eslint-plugin-jsdoc@^43.0.5 -  / 
+    eslint-plugin-n@^16.6.2 -  / 
+    eslint-plugin-unicorn@^53.0.0 -  / 
+    eslint-release@^3.2.0 -  / 
+    eslump@^3.0.0 -  / 
+    esprima@^4.0.1 - 314KB / 
+    fast-glob@^3.2.11 - 96.7KB / 
+    fs-teardown@^0.1.3 -  / 
+    glob@^10.4.1 - 55.1KB / 
+    got@^11.8.3 -  / 
+    gray-matter@^4.0.3 -  / 
+    lint-staged@^13.2.1 -  / 
+    load-perf@^0.2.0 -  / 
+    markdown-it@^12.2.0 -  / 
+    markdown-it-container@^3.0.0 -  / 
+    markdownlint@^0.32.0 -  / 
+    markdownlint-cli@^0.37.0 -  / 
+    marked@^4.0.8 -  / 
+    memfs@^3.2.0 -  / 
+    metascraper@^5.25.7 -  / 
+    metascraper-description@^5.25.7 -  / 
+    metascraper-image@^5.29.3 -  / 
+    metascraper-logo@^5.25.7 -  / 
+    metascraper-logo-favicon@^5.25.7 -  / 
+    metascraper-title@^5.25.7 -  / 
+    mocha@^10.4.0 -  / 
+    mocha-junit-reporter@^2.0.0 -  / 
+    node-polyfill-webpack-plugin@^1.0.3 -  / 
+    npm-license@^0.3.3 -  / 
+    pirates@^4.0.5 - 13.5KB / 
+    progress@2.0.3 - 15.5KB / 
+    proxyquire@^2.0.1 -  / 
+    recast@^0.23.0 - 244KB / 
+    regenerator-runtime@^0.14.0 - 27.9KB / 
+    rollup-plugin-node-polyfills@^0.2.1 -  / 
+    semver@^7.5.1 - 94.2KB / 
+    shelljs@^0.8.2 - 212KB / 
+    sinon@^11.0.0 -  / 
+    vite-plugin-commonjs@^0.10.0 -  / 
+    webdriverio@^8.14.6 -  / 
+    webpack@^1.15.0 - 4.82MB / 
+    webpack-cli@^5.0.1 -  / 
+    yorkie@^2.0.0 -  / 
+  eslint-config-prettier@^8.8.0 - 19.9KB / 
+  eslint-plugin-import@^2.27.5 - 1.21MB / 
+   deps:
+    array-includes@^3.1.7 - 26.3KB / 
+    array.prototype.findlastindex@^1.2.3 - 30.6KB / 
+    array.prototype.flat@^1.3.2 - 18.7KB / 
+    array.prototype.flatmap@^1.3.2 - 19.1KB / 
+    debug@4.3.4 - 42.4KB / 
+    doctrine@^3.0.0 - 106KB / 
+    eslint-import-resolver-node@^0.3.9 - 5.29KB / 
+    eslint-module-utils@^2.8.0 - 36.4KB / 
+    hasown@^2.0.0 - 8.77KB / 
+    is-core-module@^2.13.1 - 30.2KB / 
+    is-glob@^4.0.0 - 13.6KB / 
+    minimatch@^3.1.1 - 34.9KB / 
+    object.fromentries@^2.0.7 - 16.3KB / 
+    object.groupby@^1.0.1 - 17.6KB / 
+    object.values@^1.1.7 - 30.9KB / 
+    semver@^7.5.1 - 94.2KB / 
+    tsconfig-paths@^3.15.0 - 216KB / 
+   devDeps:
+    @angular-eslint/template-parser@^13.5.0 -  / 
+    @eslint/import-test-order-redirect-scoped@file:./tests/files/order-redirect-scoped -  / 
+    @test-scope/some-module@file:./tests/files/symlinked-module -  / 
+    @typescript-eslint/parser@^7.11.0 - 18.6KB / 
+    babel-cli@^6.26.0 -  / 
+    babel-core@^6.26.3 - 1.53KB / 
+    babel-eslint@=8.0.3 || ^8.2.6 -  / 
+    babel-plugin-istanbul@^6.1.1 - 25.7KB / 
+    babel-plugin-module-resolver@^2.7.1 -  / 
+    babel-preset-airbnb@^2.6.0 -  / 
+    babel-preset-flow@^6.23.0 -  / 
+    babel-register@^6.26.0 -  / 
+    babylon@^6.18.0 -  / 
+    chai@^4.4.1 - 754KB / 
+    cross-env@^7.0.3 - 29.1KB / 
+    escope@^3.6.0 -  / 
+    eslint@^8.42.0 - 3.03MB / 
+    eslint-doc-generator@^1.6.1 -  / 
+    eslint-import-resolver-node@^0.3.9 - 5.29KB / 
+    eslint-import-resolver-typescript@^1.0.2 || ^1.1.1 - 45.1KB / 
+    eslint-import-resolver-webpack@file:./resolvers/webpack -  / 
+    eslint-import-test-order-redirect@file:./tests/files/order-redirect -  / 
+    eslint-module-utils@^2.8.0 - 36.4KB / 
+    eslint-plugin-eslint-plugin@^5.2.1 -  / 
+    eslint-plugin-import@^2.27.5 - 1.21MB / 
+    eslint-plugin-json@^2.1.2 -  / 
+    fs-copy-file-sync@^1.1.1 -  / 
+    glob@^10.4.1 - 55.1KB / 
+    in-publish@^2.0.1 -  / 
+    jackspeak@=2.1.1 - 253KB / 
+    linklocal@^2.8.2 -  / 
+    lodash.isarray@^4.0.0 -  / 
+    markdownlint-cli@^0.37.0 -  / 
+    mocha@^10.4.0 -  / 
+    npm-which@^3.0.1 -  / 
+    nyc@^15.1.0 - 105KB / 
+    redux@^3.7.2 - 290KB / 
+    rimraf@^2.6.2 - 17.3KB / 
+    safe-publish-latest@^1.1.4 -  / 
+    sinon@^11.0.0 -  / 
+    typescript@^5.5 - 21.9MB / 
+    typescript-eslint-parser@^15 || ^20 || ^22 -  / 
+  eslint-plugin-node@^11.1.0 - 269KB / 
+   deps:
+    eslint-plugin-es@^3.0.0 - 158KB / 
+    eslint-utils@^2.0.0 - 342KB / 
+    ignore@^5.2.0 - 51.5KB / 
+    minimatch@^3.1.1 - 34.9KB / 
+    resolve@^1.10.1 - 145KB / 
+    semver@^7.5.1 - 94.2KB / 
+   devDeps:
+    @mysticatea/eslint-plugin@^10.0.3 -  / 
+    codecov@^3.0.2 -  / 
+    eslint@^8.42.0 - 3.03MB / 
+    eslint-plugin-node@^11.1.0 - 269KB / 
+    fast-glob@^3.2.11 - 96.7KB / 
+    globals@^13.19.0 - 52.1KB / 
+    mocha@^10.4.0 -  / 
+    nyc@^15.1.0 - 105KB / 
+    opener@^1.5.1 -  / 
+    punycode@^2.1.1 - 33.5KB / 
+    rimraf@^2.6.2 - 17.3KB / 
+  eslint-plugin-prettier@^4.2.1 - 58.3KB / 
+   deps:
+    prettier-linter-helpers@^1.0.0 - 9.58KB / 
+   devDeps:
+    @1stg/common-config@~3.0.0 -  / 
+    @1stg/eslint-config@~3.0.0 -  / 
+    @changesets/changelog-github@^0.4.5 -  / 
+    @changesets/cli@^2.23.0 -  / 
+    @graphql-eslint/eslint-plugin@^2.5.0 -  / 
+    @ota-meshi/eslint-plugin-svelte@^0.34.1 -  / 
+    @typescript-eslint/parser@^7.11.0 - 18.6KB / 
+    eslint-config-prettier@^8.8.0 - 19.9KB / 
+    eslint-mdx@^1.17.0 -  / 
+    eslint-plugin-eslint-plugin@^5.2.1 -  / 
+    eslint-plugin-mdx@^1.17.0 -  / 
+    eslint-plugin-self@^1.2.1 -  / 
+    eslint-plugin-utils@^0.1.0 -  / 
+    graphql@^16.5.0 -  / 
+    mocha@^10.4.0 -  / 
+    patch-package@^6.4.7 -  / 
+    svelte@^3.48.0 -  / 
+    vue-eslint-parser@^8.3.0 -  / 
+  eslint-plugin-promise@^6.1.1 - 67.1KB / 
+   devDeps:
+    @typescript-eslint/parser@^7.11.0 - 18.6KB / 
+    doctoc@^0.15.0 -  / 
+    eslint@^8.42.0 - 3.03MB / 
+    eslint-config-prettier@^8.8.0 - 19.9KB / 
+    eslint-plugin-eslint-plugin@^5.2.1 -  / 
+    eslint-plugin-jest@^27.6.3 -  / 
+    eslint-plugin-node@^11.1.0 - 269KB / 
+    eslint-plugin-prettier@^4.2.1 - 58.3KB / 
+    husky@^8.0.3 -  / 
+    jest@^29.6.4 - 5.01KB / 
+    lint-staged@^13.2.1 -  / 
+    prettier@^2.8.8 - 11.2MB / 
+    typescript@^5.5 - 21.9MB / 
+  eslint-plugin-react@^7.32.2 - 795KB / 
+   deps:
+    array-includes@^3.1.7 - 26.3KB / 
+    array.prototype.flatmap@^1.3.2 - 19.1KB / 
+    array.prototype.tosorted@^1.1.1 - 19.7KB / 
+    doctrine@^3.0.0 - 106KB / 
+    es-iterator-helpers@^1.0.12 - 156KB / 
+    estraverse@^5.1.0 - 37.1KB / 
+    jsx-ast-utils@^2.4.1 || ^3.0.0 - 236KB / 
+    minimatch@^3.1.1 - 34.9KB / 
+    object.entries@^1.1.6 - 31.4KB / 
+    object.fromentries@^2.0.7 - 16.3KB / 
+    object.hasown@^1.1.2 - 16.1KB / 
+    object.values@^1.1.7 - 30.9KB / 
+    prop-types@^15.8.1 - 94.5KB / 
+    resolve@^1.10.1 - 145KB / 
+    semver@^7.5.1 - 94.2KB / 
+    string.prototype.matchall@^4.0.8 - 36.6KB / 
+   devDeps:
+    @babel/core@^7.23.7 - 778KB / 
+    @babel/eslint-parser@^7.16.5 -  / 
+    @babel/plugin-syntax-decorators@^7.22.5 -  / 
+    @babel/plugin-syntax-do-expressions@^7.22.5 -  / 
+    @babel/plugin-syntax-function-bind@^7.22.5 -  / 
+    @babel/preset-react@^7.23.3 -  / 
+    @types/eslint@^8.56.10 - 186KB / 
+    @types/estree@^1.0.5 - 25.7KB / 
+    @types/node@^20.10.4 - 4MB / 
+    @typescript-eslint/parser@^7.11.0 - 18.6KB / 
+    aud@^1.1.3 -  / 
+    babel-eslint@=8.0.3 || ^8.2.6 -  / 
+    eslint@^8.42.0 - 3.03MB / 
+    eslint-config-airbnb-base@^3.0.0 -  / 
+    eslint-doc-generator@^1.6.1 -  / 
+    eslint-plugin-eslint-plugin@^5.2.1 -  / 
+    eslint-plugin-import@^2.27.5 - 1.21MB / 
+    eslint-remote-tester@^3.0.0 -  / 
+    eslint-remote-tester-repositories@^1.0.1 -  / 
+    eslint-scope@5.1.1 - 78.4KB / 
+    espree@^9.6.1 - 73.6KB / 
+    istanbul@^0.4.5 -  / 
+    jackspeak@=2.1.1 - 253KB / 
+    ls-engines@^0.8.1 -  / 
+    markdownlint-cli@^0.37.0 -  / 
+    mocha@^10.4.0 -  / 
+    npmignore@^0.3.0 -  / 
+    sinon@^11.0.0 -  / 
+    typescript@^5.5 - 21.9MB / 
+    typescript-eslint-parser@^15 || ^20 || ^22 -  / 
+  eslint-plugin-react-hooks@^4.6.0 - 118KB / 
+   devDeps:
+    @typescript-eslint/parser-v2@npm:@typescript-eslint/parser@^2.26.0 -  / 
+    @typescript-eslint/parser-v3@npm:@typescript-eslint/parser@^3.10.0 -  / 
+    @typescript-eslint/parser-v4@npm:@typescript-eslint/parser@^4.1.0 -  / 
+    @typescript-eslint/parser-v5@npm:@typescript-eslint/parser@^5.0.0-0 -  / 
+  eslint-plugin-security@^1.7.1 - 134KB / 
+   deps:
+    safe-regex@^2.1.1 - 16.5KB / 
+   devDeps:
+    changelog@1.3.0 -  / 
+    eslint@^8.42.0 - 3.03MB / 
+    eslint-config-nodesecurity@^1.3.1 -  / 
+    eslint-config-prettier@^8.8.0 - 19.9KB / 
+    eslint-doc-generator@^1.6.1 -  / 
+    eslint-plugin-eslint-plugin@^5.2.1 -  / 
+    lint-staged@^13.2.1 -  / 
+    markdownlint-cli@^0.37.0 -  / 
+    mocha@^10.4.0 -  / 
+    npm-run-all@^4.1.5 -  / 
+    prettier@^2.8.8 - 11.2MB / 
+    semantic-release@^8.2.0 -  / 
+    yorkie@^2.0.0 -  / 
+  eslint-plugin-simple-import-sort@^10.0.0 - 37.3KB / 
+  eslint-plugin-unused-imports@^2.0.0 - 11.1KB / 
+   deps:
+    eslint-rule-composer@^0.3.0 - 16.2KB / 
+   devDeps:
+    @typescript-eslint/eslint-plugin@^5.62.0 - 2.43MB / 
+    @typescript-eslint/parser@^7.11.0 - 18.6KB / 
+    eslint@^8.42.0 - 3.03MB / 
+    jest@^29.6.4 - 5.01KB / 
+  jest@^29.6.4 - 5.01KB / 
+   deps:
+    @jest/core@^29.7.0 - 145KB / 
+    @jest/types@^29.6.3 - 32.7KB / 
+    import-local@^3.0.2 - 4.66KB / 
+    jest-cli@^29.7.0 - 33.8KB / 
+   devDeps:
+    @tsd/typescript@^5.0.4 -  / 
+    tsd-lite@^0.7.0 -  / 
+  jest-slow-test-reporter@^1.0.0 - 3.99KB / 
+  lerna@^8.1.6 - 8.14MB / 
+   deps:
+    @lerna/create@8.1.6 - 437KB / 
+    @npmcli/arborist@7.5.3 - 460KB / 
+    @npmcli/package-json@5.2.0 - 39.5KB / 
+    @npmcli/run-script@8.1.0 - 18.3KB / 
+    @nx/devkit@>=17.1.2 < 20 - 220KB / 
+    @octokit/plugin-enterprise-rest@6.0.1 - 8.99MB / 
+    @octokit/rest@^20.1.1 - 9.85KB / 
+    aproba@2.0.0 - 8.05KB / 
+    byte-size@8.1.1 - 32.8KB / 
+    chalk@^4.1.2 - 35KB / 
+    clone-deep@^4.0.1 - 8KB / 
+    cmd-shim@6.0.3 - 12.2KB / 
+    color-support@1.1.3 - 9.23KB / 
+    columnify@1.6.0 - 38.8KB / 
+    console-control-strings@^1.1.0 - 12.7KB / 
+    conventional-changelog-angular@7.0.0 - 13.7KB / 
+    conventional-changelog-core@5.0.1 - 25.8KB / 
+    conventional-recommended-bump@7.0.1 - 16.7KB / 
+    cosmiconfig@9.0.0 - 124KB / 
+    dedent@^1.0.0 - 23.9KB / 
+    envinfo@7.13.0 - 162KB / 
+    execa@^1.0.0 - 57.5KB / 
+    fs-extra@^11.2.0 - 54.9KB / 
+    get-port@4.2.0 - 8.74KB / 
+    get-stream@^6.0.0 - 12.2KB / 
+    git-url-parse@14.0.0 - 31.5KB / 
+    glob-parent@^6.0.2 - 7.72KB / 
+    globby@^11.0.1 - 21.8KB / 
+    graceful-fs@^4.2.9 - 32.5KB / 
+    has-unicode@2.0.1 - 3.44KB / 
+    import-local@^3.0.2 - 4.66KB / 
+    ini@^1.3.8 - 9.3KB / 
+    init-package-json@6.0.3 - 13.8KB / 
+    inquirer@^9.2.21 - 87.6KB / 
+    is-ci@^3.0.0 - 3.81KB / 
+    is-stream@^2.0.0 - 5.93KB / 
+    jest-diff@^29.7.0 - 78.5KB / 
+    js-yaml@^4.1.0 - 405KB / 
+    libnpmaccess@8.0.6 - 8.49KB / 
+    libnpmpublish@9.0.9 - 27.2KB / 
+    load-json-file@^4.0.0 - 3.21KB / 
+    lodash@^4.17.19 - 1.41MB / 
+    make-dir@^3.0.0 - 10KB / 
+    minimatch@^3.1.1 - 34.9KB / 
+    multimatch@5.0.0 - 6.03KB / 
+    node-fetch@^3.3.2 - 152KB / 
+    npm-package-arg@11.0.2 - 19.1KB / 
+    npm-packlist@8.0.2 - 22.2KB / 
+    npm-registry-fetch@^17.1.0 - 44.1KB / 
+    nx@^19.4 - 4.27MB / 
+    p-map@^3.0.0 - 8.39KB / 
+    p-map-series@2.1.0 - 5.63KB / 
+    p-pipe@3.1.0 - 8.52KB / 
+    p-queue@6.6.2 - 30.9KB / 
+    p-reduce@2.1.0 - 6.14KB / 
+    p-waterfall@2.1.1 - 10.4KB / 
+    pacote@^18.0.6 - 73.2KB / 
+    pify@^4.0.1 - 8.87KB / 
+    read-cmd-shim@4.0.0 - 5.16KB / 
+    resolve-from@^5.0.0 - 5.82KB / 
+    rimraf@^2.6.2 - 17.3KB / 
+    semver@^7.5.1 - 94.2KB / 
+    set-blocking@^2.0.0 - 4.22KB / 
+    signal-exit@^4.1.0 - 9.96KB / 
+    slash@^3.0.0 - 3.51KB / 
+    ssri@^10.0.6 - 38.7KB / 
+    string-width@^4.2.3 - 5.16KB / 
+    strong-log-transformer@^2.1.0 - 16.4KB / 
+    tar@^4.4.8 - 167KB / 
+    temp-dir@^2.0.0 - 3.29KB / 
+    typescript@^5.5 - 21.9MB / 
+    upath@^1.2.0 - 36.7KB / 
+    uuid@^9.0.0 - 123KB / 
+    validate-npm-package-license@^3.0.1 - 16.6KB / 
+    validate-npm-package-name@5.0.1 - 7.77KB / 
+    wide-align@1.1.5 - 4.47KB / 
+    write-file-atomic@^4.0.2 - 12.2KB / 
+    write-pkg@4.0.0 - 6.51KB / 
+    yargs@17.7.2 - 292KB / 
+    yargs-parser@^21.1.1 - 128KB / 
+  nx@^19.4 - 4.27MB / 
+   deps:
+    @yarnpkg/lockfile@^1.1.0 - 280KB / 
+    @yarnpkg/parsers@3.0.0-rc.46 - 197KB / 
+    @zkochan/js-yaml@0.0.7 - 385KB / 
+    axios@^0.21.1 - 2.08MB / 
+    chalk@^4.1.2 - 35KB / 
+    cli-cursor@^3.1.0 - 4.37KB / 
+    cli-spinners@^2.5.0 - 27.5KB / 
+    cliui@^8.0.1 - 32.3KB / 
+    dotenv@^16.3.1 - 79.1KB / 
+    dotenv-expand@^9.0.0 - 13.9KB / 
+    enquirer@~2.3.6 - 197KB / 
+    figures@^3.0.0 - 12.1KB / 
+    flat@^5.0.2 - 26.6KB / 
+    front-matter@^4.0.2 - 11.3KB / 
+    fs-extra@^11.2.0 - 54.9KB / 
+    ignore@^5.2.0 - 51.5KB / 
+    jest-diff@^29.7.0 - 78.5KB / 
+    jsonc-parser@^3.2.1 - 205KB / 
+    lines-and-columns@^1.1.6 - 5.39KB / 
+    minimatch@^3.1.1 - 34.9KB / 
+    npm-run-path@^4.0.1 - 8.13KB / 
+    open@~0.0.5 - 46.3KB / 
+    semver@^7.5.1 - 94.2KB / 
+    string-width@^4.2.3 - 5.16KB / 
+    strong-log-transformer@^2.1.0 - 16.4KB / 
+    tar-stream@^3.1.5 - 32KB / 
+    tmp@^0.0.25 - 52.9KB / 
+    tsconfig-paths@^3.15.0 - 216KB / 
+    tslib@^2.6.2 - 84KB / 
+    yargs@17.7.2 - 292KB / 
+    yargs-parser@^21.1.1 - 128KB / 
+    node-machine-id@1.1.12 - 35.8KB / 
+    ora@^5.4.1 - 23.2KB / 
+    @nrwl/tao@19.4.2 - 5.36KB / 
+  prettier@^2.8.8 - 11.2MB / 
+  tsx@^4.10.3 - 396KB / 
+   deps:
+    esbuild@^0.21.4 - 9.63MB / 
+    get-tsconfig@^4.7.5 - 101KB / 
+  typescript@^5.5 - 21.9MB / 
+   devDeps:
+    @dprint/formatter@^0.3.0 -  / 
+    @dprint/typescript@0.91.0 -  / 
+    @esfx/canceltoken@^1.0.0 -  / 
+    @octokit/rest@^20.1.1 - 9.85KB / 
+    @types/chai@^4.3.16 - 76.8KB / 
+    @types/microsoft__typescript-etw@^0.1.3 -  / 
+    @types/minimist@^1.2.5 - 6.27KB / 
+    @types/mocha@^10.0.6 -  / 
+    @types/ms@^0.7.34 -  / 
+    @types/node@^20.10.4 - 4MB / 
+    @types/source-map-support@^0.5.10 - 9.66KB / 
+    @types/which@^3.0.3 -  / 
+    @typescript-eslint/eslint-plugin@^5.62.0 - 2.43MB / 
+    @typescript-eslint/parser@^7.11.0 - 18.6KB / 
+    @typescript-eslint/utils@^7.11.0 - 501KB / 
+    azure-devops-node-api@^13.0.0 -  / 
+    c8@^9.1.0 -  / 
+    chai@^4.4.1 - 754KB / 
+    chalk@^4.1.2 - 35KB / 
+    chokidar@^3.6.0 - 90.2KB / 
+    diff@^5.2.0 - 335KB / 
+    dprint@^0.46.1 -  / 
+    esbuild@^0.21.4 - 9.63MB / 
+    eslint@^8.42.0 - 3.03MB / 
+    eslint-formatter-autolinkable-stylish@^1.3.0 -  / 
+    eslint-plugin-local@^4.2.2 -  / 
+    fast-xml-parser@^4.4.0 - 112KB / 
+    glob@^10.4.1 - 55.1KB / 
+    hereby@^1.8.9 -  / 
+    jsonc-parser@^3.2.1 - 205KB / 
+    minimist@^1.2.8 - 54.5KB / 
+    mocha@^10.4.0 -  / 
+    mocha-fivemat-progress-reporter@^0.1.0 -  / 
+    ms@^2.1.3 - 6.84KB / 
+    node-fetch@^3.3.2 - 152KB / 
+    playwright@^1.44.1 - 2.91MB / 
+    source-map-support@^0.5.21 - 85.2KB / 
+    tslib@^2.6.2 - 84KB / 
+    typescript@^5.5 - 21.9MB / 
+    which@^3.0.1 - 9.98KB / 

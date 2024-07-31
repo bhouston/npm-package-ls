@@ -5,6 +5,7 @@ import { requestNodePackage } from './cache.js';
 import { calculateDirectorySize } from './calculateDirectorySize.js';
 import type { NodePackage } from './NodePackage';
 import { resolvePackagePath } from './resolvePackagePath.js';
+import { formatBytes } from '@bhouston/common-lib';
 
 export async function processNodePackage(
   nodePackage: NodePackage,
@@ -24,7 +25,11 @@ export async function processNodePackage(
 
   if (nodePackage.packagePath && nodePackage.size === undefined) {
     nodePackage.size = await calculateDirectorySize(nodePackage.packagePath);
-    console.log(`size of ${nodePackage.name} is ${nodePackage.size}`);
+    /*  console.log(
+      `size of ${nodePackage.name}@${
+        nodePackage.version ?? '<none>'
+      } is ${formatBytes(nodePackage.size)}`
+    );*/
   }
 
   if (

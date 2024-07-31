@@ -21,7 +21,7 @@ export async function resolvePackagePath(
 
   const cachedPath = nodePackagePathCache[key];
   if (cachedPath) {
-    console.log(`found ${packageName} in cache! ${cachedPath}`);
+    //console.log(`found ${packageName} in cache! ${cachedPath}`);
     if (cachedPath === true) {
       return undefined;
     }
@@ -40,13 +40,13 @@ export async function resolvePackagePath(
     if (await pathExists(packagePath)) {
       const packageJsonPath = path.join(packagePath, 'package.json');
       if (await pathExists(packageJsonPath)) {
-        console.log(`resolving ${packageName} to ${packagePath}`);
+        //console.log(`resolving ${packageName} to ${packagePath}`);
         nodePackagePathCache[key] = packagePath;
         return packagePath;
       }
     }
   }
   nodePackagePathCache[key] = true;
-  console.log(`failed to resolve ${packageName}`);
+  //console.log(`failed to resolve ${packageName}`);
   return undefined;
 }

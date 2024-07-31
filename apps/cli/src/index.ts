@@ -41,5 +41,5 @@ export const main = async () => {
     }
   }
   postProcessNodePackage(rootPackage);
-  outputTreeSize(rootPackage, 4);
+  outputTreeSize(rootPackage, 2);
 };
